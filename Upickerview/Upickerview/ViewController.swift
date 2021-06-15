@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         textField.inputView = pickerView
         
         exitBtn = UIBarButtonItem()
-        exitBtn.title = "exit"
+        exitBtn.title = "튀어"
         exitBtn.target = self
         exitBtn.action = #selector(pickerExit)
         
